@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#alert-block {
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.alert {
+    display: none;
+}
+
+.no-flood {
+    background-color: green;
+}
+
+.low-flood {
+    background-color: orange;
+}
+
+.high-flood {
+    background-color: red;
+}
+
+#emergency-info {
+    padding: 10px;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#emergency-info h2 {
+    text-align: center;
+    color: #333;
+}
+
+#hospital-details, #emergency-numbers {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
